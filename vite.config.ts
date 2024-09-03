@@ -14,6 +14,12 @@ const manifest = defineManifest({
   action: {
     default_popup: "src/popup/index.html",
   },
+  content_scripts: [
+    {
+      js: ["src/content/main.ts"],
+      matches: ["https://jp.mercari.com/*"],
+    },
+  ],
 });
 
 export default defineConfig({
