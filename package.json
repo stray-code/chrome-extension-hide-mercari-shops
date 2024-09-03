@@ -7,10 +7,20 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "format": "biome check --write"
+    "format": "biome check --write .",
+    "tsc": "tsc --skipLibCheck --noEmit",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "bash -c \"npm run format\"",
+      "bash -c \"npm run tsc\""
+    ]
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
+    "husky": "^9.1.5",
+    "lint-staged": "^15.2.10",
     "typescript": "^5.5.3",
     "vite": "^5.4.1"
   }
