@@ -12,7 +12,10 @@
     "prepare": "husky"
   },
   "lint-staged": {
-    "*.ts": ["bash -c \"npm run format\"", "bash -c \"npm run tsc\""]
+    "*.ts": [
+      "bash -c \"npm run format\"",
+      "bash -c \"npm run tsc\""
+    ]
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
@@ -21,5 +24,8 @@
     "lint-staged": "^15.2.10",
     "typescript": "^5.5.3",
     "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "vanjs-core": "^1.5.2"
   }
 }
