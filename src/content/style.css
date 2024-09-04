@@ -1,3 +1,0 @@
-[data-testid="item-cell"]:has(a[href^="/shops"]) {
-  display: none;
-}
