@@ -12,10 +12,7 @@
     "prepare": "husky"
   },
   "lint-staged": {
-    "*.ts": [
-      "bash -c \"npm run format\"",
-      "bash -c \"npm run tsc\""
-    ]
+    "*.ts": ["bash -c \"npm run format\"", "bash -c \"npm run tsc\""]
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
