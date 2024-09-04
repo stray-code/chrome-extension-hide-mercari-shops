@@ -18,7 +18,7 @@ const App = () => {
 
   return div(
     {
-      style: "width: 200px",
+      style: "width: 220px",
     },
     div(
       {
