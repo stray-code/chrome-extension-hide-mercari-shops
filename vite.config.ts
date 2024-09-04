@@ -20,6 +20,7 @@ const manifest = defineManifest({
       matches: ["https://jp.mercari.com/*"],
     },
   ],
+  permissions: ["storage"],
 });
 
 export default defineConfig({
