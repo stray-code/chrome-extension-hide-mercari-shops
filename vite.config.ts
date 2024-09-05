@@ -5,7 +5,7 @@ const manifest = defineManifest({
   manifest_version: 3,
   name: "メルカリShops（ショップス）を非表示",
   description: "検索一覧からメルカリShopsの商品を表示しないようにします。",
-  version: "1.0.0",
+  version: "1.0.1",
   icons: {
     16: "img/icon16.png",
     48: "img/icon48.png",
