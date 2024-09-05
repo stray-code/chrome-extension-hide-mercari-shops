@@ -10,8 +10,6 @@ const init = async () => {
     const body = document.querySelector("body");
 
     body?.classList.add(classes.item);
-
-    return;
   }
 };
 
